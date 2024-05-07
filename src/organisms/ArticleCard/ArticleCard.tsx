@@ -35,7 +35,7 @@ const ArticleCard = ({ data }: ArticleCardProps) => {
             <p className="content-description">
               {data?.description?.length > 30
                 ? "..." + data.description.slice(0, 150)
-                : data.description.replace(/nbsp;/g, "")}
+                : data.description?.replace(/nbsp;/g, "")}
             </p>
             <div className="date">
               <a href={data.link} className="content-link">
