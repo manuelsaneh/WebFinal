@@ -21,6 +21,7 @@ const VegetarianSlider = () => {
             `https://api.spoonacular.com/recipes/random?apiKey=${process.env.API_KEY}&number=9&tags=vegetarian`
           );
           setVegetarian(result.data.recipes);
+          // this is only because of the limited requests from the api
           localStorage.setItem(
             "vegetarian",
             JSON.stringify(result.data.recipes)

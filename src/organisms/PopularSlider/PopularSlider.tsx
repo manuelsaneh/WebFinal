@@ -21,6 +21,7 @@ const PopularSlider = () => {
             `https://api.spoonacular.com/recipes/random?apiKey=${process.env.API_KEY}&number=9`
           );
           setPopular(result.data.recipes);
+          // this is only because of the limited requests from the api
           localStorage.setItem("popular", JSON.stringify(result.data.recipes));
         }
       } catch (error) {
