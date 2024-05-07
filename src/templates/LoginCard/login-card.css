@@ -1,0 +1,49 @@
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  width: 50%;
+  height: 70%;
+  margin-top: 4rem;
+}
+
+.login-title {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+  .login-card {
+    background-color: #fff;
+    width: 85%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .login-card {
+    background-color: #fff;
+    width: 85%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .login-card {
+    background-color: #fff;
+    width: 70%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .login-card {
+    background-color: #fff;
+    width: 85%;
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 400px) {
+}

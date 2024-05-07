@@ -1,0 +1,23 @@
+.news-page {
+  margin: 2rem 5rem 6rem 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+}
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+@media screen and (max-width: 550px) {
+  .news-page {
+    margin: 1rem 2rem 4rem 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+}

@@ -1,0 +1,62 @@
+.cards {
+  width: 240px;
+  height: 320px;
+}
+
+.title {
+  margin: 4rem 0 2rem 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.ingredient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 15px;
+  text-wrap: wrap;
+  font-weight: 400;
+  color: #fff;
+  padding: 1rem;
+}
+
+.ingredient:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.ingredient:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.ingredient:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.ingredient:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.ingredient:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.ingredient:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.ingredient:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.ingredient:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.ingredient:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.ingredient:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}

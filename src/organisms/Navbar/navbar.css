@@ -1,0 +1,113 @@
+.navbar-container {
+  margin: 2rem 5rem 2rem 5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Lobster Two", cursive;
+}
+
+.menu-icon {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-form {
+  width: 50%;
+  position: relative;
+}
+
+.search {
+  border: none;
+  background: #fff;
+  color: #000;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  outline: none;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(100%, -50%);
+  color: #000;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar-container {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .search-container {
+    margin-bottom: 2rem;
+  }
+
+  .search-form {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .navbar-container {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .search-container {
+    margin-bottom: 2rem;
+  }
+
+  .search-form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar-container {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .search-container {
+    margin-bottom: 2rem;
+  }
+
+  .search-form {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .navbar-container {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+
+  .search-container {
+    margin-bottom: 2rem;
+  }
+
+  .search-form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+}
