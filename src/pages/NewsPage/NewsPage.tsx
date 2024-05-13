@@ -15,7 +15,7 @@ const NewsPage = () => {
   const token = useAppSelector((state) => state.auth.token);
 
   const authPosts = axios.create({
-    baseURL: "https://backend-practice.euriskomobility.me",
+    baseURL: "http://192.30.129.113:5837",
     headers: {
       Authorization: `Bearer ${token}`,
     },
